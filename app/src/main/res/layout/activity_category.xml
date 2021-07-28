@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".categories.CategoryActivity">
+
+    <include layout="@layout/application_title_bar"
+        android:id="@+id/title_bar_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:background="#FAFAFB"
+        app:layout_constraintTop_toBottomOf="@id/title_bar_category"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCategoryGrocery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grocery"
+                android:textColor="@color/mobile_app_bar"
+                android:backgroundTint="#fff"
+                android:layout_margin="1dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCategoryFruits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fruits"
+                android:textColor="@color/mobile_app_bar"
+                android:backgroundTint="#fff"
+                android:layout_margin="1dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/btnCategoryGrocery"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCategoryVegetables"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vegetables"
+                android:textColor="@color/mobile_app_bar"
+                android:backgroundTint="#fff"
+                android:layout_margin="1dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/btnCategoryFruits"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCategoryInstantFoods"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:textColor="@color/mobile_app_bar"
+                android:backgroundTint="#fff"
+                android:text="Instant Food"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/btnCategoryVegetables"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCategoryDairy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dairy"
+                android:textColor="@color/mobile_app_bar"
+                android:backgroundTint="#fff"
+                android:layout_margin="1dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/btnCategoryInstantFoods"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCategorySnacks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Snacks"
+                android:textColor="@color/mobile_app_bar"
+                android:backgroundTint="#fff"
+                android:layout_margin="1dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/btnCategoryDairy"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCategoryBeverages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beverages"
+                android:textColor="@color/mobile_app_bar"
+                android:backgroundTint="#fff"
+                android:layout_margin="1dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/btnCategorySnacks"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCategoryBeautyCare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beauty Care"
+                android:textColor="@color/mobile_app_bar"
+                android:backgroundTint="#fff"
+                android:layout_margin="1dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/btnCategoryBeverages"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCategoryHomeHygiene"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Home Hygiene"
+                android:textColor="@color/mobile_app_bar"
+                android:backgroundTint="#fff"
+                android:layout_margin="1dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/btnCategoryBeautyCare"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCategoryBaby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Baby Care"
+                android:textColor="@color/mobile_app_bar"
+                android:backgroundTint="#fff"
+                android:layout_margin="1dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/btnCategoryHomeHygiene"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCategoryMen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mens Wear"
+                android:textColor="@color/mobile_app_bar"
+                android:backgroundTint="#fff"
+                android:layout_margin="1dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/btnCategoryBaby"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCategoryWomen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Womens Wear"
+                android:textColor="@color/mobile_app_bar"
+                android:backgroundTint="#fff"
+                android:layout_margin="1dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/btnCategoryMen"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCategoryKids"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kids Wear"
+                android:textColor="@color/mobile_app_bar"
+                android:backgroundTint="#fff"
+                android:layout_margin="1dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/btnCategoryWomen"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </HorizontalScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewCategory"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:listitem="@layout/recycler_layout_categories_list"
+        app:layout_constraintTop_toBottomOf="@id/horizontalScrollView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/fabAddItem"/>
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_input_add"
+        android:backgroundTint="@color/mobile_app_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

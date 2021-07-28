@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">E-Cart</string>
+
+    <string-array name="tabs_title_home">
+        <item>Categories</item>
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Dairy</item>
+        <item>Grocery</item>
+        <item>Fashion</item>
+        <item>Medicines</item>
+    </string-array>
+
+    <string-array name="scrolling_images_url">
+        <item>https://www.jiomart.com/images/cms/aw_rbslider/slides/1623344020_mob.jpg</item>
+        <item>https://www.jiomart.com/images/cms/aw_rbslider/slides/1627041082_besanmob.jpg</item>
+        <item>https://www.jiomart.com/images/cms/aw_rbslider/slides/1625255567_anna.jpg</item>
+        <item>https://www.jiomart.com/images/cms/aw_rbslider/slides/1625057941_mons.jpg</item>
+        <item>https://www.jiomart.com/images/cms/aw_rbslider/slides/1626953866_m.jpg</item>
+    </string-array>
+
+    <string-array name="top_categories">
+        <item>https://www.jiomart.com/images/cms/aw_rbslider/slides/1623343094_Foodgrains.jpg</item>
+        <item>https://www.jiomart.com/images/cms/aw_rbslider/slides/1623343145_F__V.jpg</item>
+        <item>https://www.jiomart.com/images/cms/aw_rbslider/slides/1623343210_Bakery__Dairy.jpg</item>
+        <item>https://www.jiomart.com/images/cms/aw_rbslider/slides/1623343269_Snacks.jpg</item>
+        <item>https://www.jiomart.com/images/cms/aw_rbslider/slides/1623343311_Beverages.jpg</item>
+        <item>https://www.jiomart.com/images/cms/aw_rbslider/slides/1623343349_Instant__Ready_Foods.jpg</item>
+        <item>https://www.jiomart.com/images/cms/aw_rbslider/slides/1623343405_Beauty.jpg</item>
+        <item>https://www.jiomart.com/images/cms/aw_rbslider/slides/1623343480_HOME_HYGIENE.jpg</item>
+        <item>https://www.jiomart.com/images/cms/aw_rbslider/slides/1623343522_Mom__Baby.jpg</item>
+        <item>https://www.jiomart.com/images/cms/aw_rbslider/slides/1623343559_MENS_WEAR.jpg</item>
+        <item>https://www.jiomart.com/images/cms/aw_rbslider/slides/1623343590_WOMENS.jpg</item>
+        <item>https://www.jiomart.com/images/cms/aw_rbslider/slides/1623343629_KIDS_WEAR.jpg</item>
+    </string-array>
+</resources>
